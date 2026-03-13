@@ -133,6 +133,11 @@ select {
   outline-offset: 3px;
 }
 
+h1 {
+  font-size: clamp(2rem, 5vw, 7rem);
+  text-align: center;
+}
+
 @media (max-width: 640px) {
   .productsSection {
     padding: 20px 16px 96px;

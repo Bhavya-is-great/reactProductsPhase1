@@ -69,6 +69,7 @@ const App = () => {
   return (
     <div className="appShell">
       <main className="productsSection">
+        <h1>Our Products</h1>
         <div className="productsGrid">
           {products.map((product) => (
             <Item key={product.title} {...product} />
